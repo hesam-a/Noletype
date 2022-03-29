@@ -7,8 +7,8 @@
 # Copyright:            Copyright (c) Hesam Arabzadeh, Chengwen Liu
 #           Orlando Acevedo, Pengyu Ren, Wei Yang, Thomas Albrecht-Schoenzart 2022
 #
-# Noletype is a free software; you can redistribute it and/or modify
-# it under the terms of the GNU General Public License version 3
+# Noletype is a free software; you can redistribute it under 
+# the terms of the GNU General Public License version 3
 # as published by the Free Software Foundation.
 #
 # Noletype is distributed in the hope that it will be useful, but WITHOUT ANY
@@ -113,23 +113,9 @@ if __name__ == '__main__':
         noletype=NoleType()
         try:
             noletype.main()
-        except:
-            traceback.print_exc(file=sys.stdout)
-            text = str(traceback.format_exc())
-            #if os.path.exists(poltype.scrtmpdirgau):
-            #    shutil.rmtree(poltype.scrtmpdirgau)
-            #if os.path.exists(poltype.scrtmpdirpsi4):
-            #    shutil.rmtree(poltype.scrtmpdirpsi4)
-            #if poltype.email!=None:
-            #    password='amoebaisbest'
-            #    fromaddr = 'poltypecrashreportnoreply@gmail.com'
-            #    toaddr = poltype.email
-            #    filename=poltype.logfname
-            #    poltype.WriteToLog(text)
-            #    poltype.WriteToLog('Poltype has crashed!')
-            #    try:
-            #        poltype.SendCrashReportEmail(text,fromaddr,toaddr,password,filename)
-            #    except:
-            #        pass
-            raise ValueError('Houston, we have a problem. Buy a developer some coffee!')
+        #except:
+        #    traceback.print_exc(file=sys.stdout)
+        #    text = str(traceback.format_exc())
+        #    raise ValueError('Tallahassee, we have a problem. Buy a developer some coffee!')
+        
     RunNoletype()
