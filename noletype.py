@@ -15,8 +15,8 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR 
 # A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 #
-# "Nole" part of the name of the package is from Florida State Universty that is 
-# well-known to "Seminoles" and where the package is written.
+# "Nole" part of the package name is from Florida State Universty that is well-
+# known to "Seminoles" and where the package is written.
 #
 #
 #################################################################################
